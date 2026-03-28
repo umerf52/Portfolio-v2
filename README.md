@@ -18,6 +18,23 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Pre-commit Hooks
+
+This project uses [prek](https://github.com/j178/prek) to run checks before each commit (trailing whitespace, JSON/YAML validation, TypeScript type checking, and more).
+
+**Setup:**
+
+```bash
+brew install j178/tap/prek
+prek install
+```
+
+To run hooks manually against all files:
+
+```bash
+prek run --all-files
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
