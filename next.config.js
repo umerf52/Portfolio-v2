@@ -1,6 +1,4 @@
-const withImages = require("next-images");
-
-module.exports = withImages({
+module.exports = {
   webpack(config, options) {
     config.module.rules.push({
       test: /\.md$/,
@@ -8,5 +6,4 @@ module.exports = withImages({
     });
     return config;
   },
-  fileExtensions: ["jpg", "jpeg", "png", "gif", "svg"],
-});
+};
