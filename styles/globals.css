@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.js";
 
 .tailwind-hidden {
   display: none;
@@ -58,7 +57,7 @@
 }
 
 /* Write you own custom component styles here */
-@variants responsive {
+@layer components {
   button.contained-primary {
     @apply bg-primary border border-solid border-primary;
   }
