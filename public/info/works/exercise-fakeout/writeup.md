@@ -113,9 +113,9 @@ Creating sketches were extremely helpful in understanding the feasibility of our
 
 <h3 style="color:#ff5257;"> The user is in the driving seat. </h3>
 
-<div class="flex justify-between"> 
-    <div style="width: 48%" class="flex flex-col justify-evenly"> 
-        
+<div class="flex justify-between">
+    <div style="width: 48%" class="flex flex-col justify-evenly">
+
 A solution to the self-reinforcing loop problem is to
 always keep the user empowered to not only view the
 information that has been learned about them but also
@@ -126,7 +126,7 @@ of the information that the AI has learned about them and correct inaccuracies.
 
  </div>
 <div style="width: 48%" class="flex justify-center">
-<img loading="lazy"  
+<img loading="lazy"
 style="width: 60%"
         src="/info/works/exercise-fakeout/Profile.svg" />
 </div>
@@ -159,9 +159,9 @@ In a second scenario, consider a college student at the last exercise of their m
 The application also suggests exercises specifically tailored for a user and fits the
 exercises in their schedule.
 
-<div class="flex justify-between"> 
-    <div style="width: 48%"> 
-        
+<div class="flex justify-between">
+    <div style="width: 48%">
+
 The third concept is to have a separate calendar feature that
 lets you add one by yourself or export your lecture
 schedule - and leave the rest to the application.

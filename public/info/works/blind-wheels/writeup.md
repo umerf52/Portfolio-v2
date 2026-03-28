@@ -97,7 +97,7 @@ We used [Protopie](https://www.protopie.io/) for hi-fi prototyping, since it cou
 One member of the team provided the voice over for all the options on the screen. The script, as well as the delivery, was an extremely important part of the overall design since that was the primary mode of conveying information to the users. The flow is provided below:
 
 <div class="iframe-container">
-    <iframe 
+    <iframe
         class="responsive-iframe"
         loading="lazy"
         src="https://www.youtube.com/embed/VRpYA34ZFPY?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

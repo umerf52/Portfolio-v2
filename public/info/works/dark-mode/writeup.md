@@ -44,7 +44,7 @@ A lot of attention to detail was required. For instance, the contrast ratios nee
 
 <br>
 
-<div class="flex justify-between"> 
+<div class="flex justify-between">
     <div style="width: 48%" class="flex flex-col justify-evenly">
     <img loading="lazy" class="w-full" src="/info/works/dark-mode/dark-mode-button-1.gif" />
 </div>
