@@ -24,7 +24,7 @@ The goals of this project therefore were to alter the ways freelancers are evalu
 
 Each client has their own understandings of star ratings. A common behaviour is how _acceptable_ work is given five stars and the rest of the scale is reserved for anything less.
 
-<div class="flex justify-between"> 
+<div class="flex justify-between">
     <div style="width: 48%" class="flex flex-col justify-evenly">
 
 This is what we described as a _“your stars aren’t my stars”_ phenomenon - each client tends to think of the stars-performance mapping differently. This understanding of rating scales has led to freelance platforms having positively skewed ratings. And if all ratings are positive, then its hard to seperate the good from the best.

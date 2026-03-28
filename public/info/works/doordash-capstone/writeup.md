@@ -35,7 +35,7 @@ After getting favourable feedback from testing, I moved on to looks-like (hi-fid
 <h2 class="sub-heading"> DESIGN </h2>
 <h3 style="color:#FF2F0A;"> Friends' Picks </h3>
 
-<div class="flex justify-between mb-10"> 
+<div class="flex justify-between mb-10">
     <div style="width: 48%" class="flex flex-col justify-evenly">
 
 One proposed feature is "Friends' Picks", which lists friends who recently ordered
@@ -51,7 +51,7 @@ The first pain point in a user's journey was feeling overwhelmed by the large nu
 </div>
 </div>
 
-<div class="flex justify-between"> 
+<div class="flex justify-between">
         <div style="width: 48%" class="flex justify-center">
             <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/menu2.png" />
         </div>
@@ -68,7 +68,7 @@ This helps with the second pain point in the user journey - choosing a meal.
 
 <br>
 
-<div class="flex justify-between mb-10"> 
+<div class="flex justify-between mb-10">
     <div style="width: 48%" class="flex flex-col justify-center">
 
 Users can also view their friends choices in meal customizations as well, if the meal allows it. This further aims to help users with their third pain point on their journey - customizing their new meal.
@@ -82,7 +82,7 @@ Users can also view their friends choices in meal customizations as well, if the
 
 <h3 style="color:#FF2F0A;"> Friends' Feed </h3>
 
-<div class="flex justify-between"> 
+<div class="flex justify-between">
     <div style="width: 48%" class="flex flex-col justify-evenly">
 
 As a user's friend list on the app grows, there is a need for a separate space where they can view their friends' activity, including the ability to specifically view orders from particular friends for inspiration. This would help users easily keep track of their friends' food-related activities and get inspiration for their own orders.
@@ -101,7 +101,7 @@ Through the proposed designs, users can now potentially discover new restaurants
 
 This presented an opportunity: **how might we incorporate the in-person discovery to Doordash?** To tackle this, I propose an ambitious concept described below.
 
-<div class="flex justify-between"> 
+<div class="flex justify-between">
         <div style="width: 48%" class="flex justify-center">
             <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/gif4.gif" />
         </div>
@@ -118,7 +118,7 @@ The idea is for users to share their in-person discoveries to DoorDash, which wo
 
 <br/>
 
-<div class="flex justify-between"> 
+<div class="flex justify-between">
         <div style="width: 48%" class="flex justify-center">
             <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/notification.png" />
         </div>
