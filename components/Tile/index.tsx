@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Project } from "../../constants";
 import Link from "next/link";
 
@@ -24,7 +25,7 @@ const Tags = ({ tags, color }: { tags: Array<string>; color: string }) => (
 const Tile = ({ work, version = 1 }: { work: Project; version?: number }) => {
   return !version ? (
     <div className="w-80 h-80 rounded-lg flex items-center justify-center overflow-hidden">
-      <img src={work.tileImagePath} className="w-80" />
+      <Image src={work.tileImagePath} alt={work.title} width={320} height={320} className="w-80" />
     </div>
   ) : (
     <Link href={`/project/${work.url}`}>
@@ -32,12 +33,14 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) => {
         className="w-96 h-80 rounded shadow-xl overflow-hidden flex flex-col bg-white dark:bg-dark-80 transition duration-500 transform hover:-translate-y-2"
         style={{ cursor: "pointer" }}
       >
-        <img
-          src={work.tileImagePath}
-          className={`h-28 w-full ${
-            work.maintainAspectRatio ? "object-cover" : ""
-          }`}
-        />
+        <div className={`relative h-28 w-full`}>
+          <Image
+            src={work.tileImagePath}
+            alt={work.title}
+            fill
+            className={work.maintainAspectRatio ? "object-cover" : ""}
+          />
+        </div>
         <div
           className="w-full px-4 pt-3 pb-6 flex flex-col"
           style={{ flex: "1 0 auto" }}

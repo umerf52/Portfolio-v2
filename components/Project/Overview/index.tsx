@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Project } from "../../../constants";
 
 const Detail = ({
@@ -63,7 +64,7 @@ const Overview = ({ project }: { project: Project }) => {
         {preview && (
           <div className="w-full sm:w-1/2 flex justify-center self-center">
             {!preview.includes("youtube") ? (
-              <img src={`${preview}`} />
+              <Image src={preview} alt="project preview" width={560} height={315} />
             ) : (
               <iframe
                 width="560"

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Intro } from "../../constants";
 import { Github, LinkedIn, Mail } from "../../utils/icons";
@@ -54,10 +55,12 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
             ))}
           </div>
         </div>
-        <img
+        <Image
           alt="jumbotron image"
           src={jumbotronImg}
-          className="h-80 m-8 rounded-full w-80 border-4 border-primary dark:border-primary-light self-center flex"
+          width={320}
+          height={320}
+          className="h-80 m-8 rounded-full w-80 border-4 border-primary dark:border-primary-light self-center"
         />
       </div>
     </>
