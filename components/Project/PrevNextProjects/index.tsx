@@ -16,10 +16,6 @@ const PrevNextProjects = ({
   const [nextProject, setNextProject] = React.useState<Project>();
 
   React.useEffect(() => {
-    getSubsequentProjects();
-  }, [currentProject]);
-
-  const getSubsequentProjects = () => {
     const currInd = allProjects.findIndex(
       (proj) => proj.title === currentProject.title
     );
@@ -33,7 +29,7 @@ const PrevNextProjects = ({
       setPrevProject(allProjects[currInd - 1]);
       setNextProject(allProjects[0]);
     }
-  };
+  }, [currentProject, allProjects]);
 
   return (
     <>

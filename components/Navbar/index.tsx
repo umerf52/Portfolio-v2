@@ -10,9 +10,9 @@ const Navbar = () => {
     setSideDrawerOpen((prevState) => !prevState);
   };
 
-  const backdropClickHandler = () => {
+  const backdropClickHandler = React.useCallback(() => {
     setSideDrawerOpen(false);
-  };
+  }, []);
 
   let backdrop = null;
 
