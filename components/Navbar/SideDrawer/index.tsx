@@ -13,9 +13,10 @@ interface ToggleProps {
 const SideDrawer = (props: ToggleProps) => {
   const router = useRouter();
 
+  const { click } = props;
   React.useEffect(() => {
-    props.click();
-  }, [router.pathname]);
+    click();
+  }, [router.pathname, click]);
 
   return (
     <div
