@@ -13,7 +13,7 @@ const Interests = ({ items }: { items: Interest[] }) =>
           {items.map((interest, index) => (
             <span key={interest.title}>
               {" "}
-              {interest}
+              {interest.title}
               {index !== items.length - 1 && ","}
             </span>
           ))}
