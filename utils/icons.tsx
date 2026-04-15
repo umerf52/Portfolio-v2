@@ -160,7 +160,7 @@ export const Logo = ({ className }: { className?: string }) => (
         <path d="M83 205h70v70.3H83Zm0 0" />
       </clipPath>
     </defs>
-    <g clip-path="url(#a)">
+    <g clipPath="url(#a)">
       <path
         className={`${className}`}
         stroke="none"
@@ -169,7 +169,7 @@ export const Logo = ({ className }: { className?: string }) => (
         d="M83 135.8h8.7v-61h61V66H83Zm0 0"
       />
     </g>
-    <g clip-path="url(#b)">
+    <g clipPath="url(#b)">
       <path
         className={`${className}`}
         stroke="none"
@@ -178,7 +178,7 @@ export const Logo = ({ className }: { className?: string }) => (
         d="M222.5 74.8h61v61h8.7V66.1h-69.7Zm0 0"
       />
     </g>
-    <g clip-path="url(#c)">
+    <g clipPath="url(#c)">
       <path
         className={`${className}`}
         stroke="none"
@@ -187,7 +187,7 @@ export const Logo = ({ className }: { className?: string }) => (
         d="M283.5 266.6h-61v8.7h69.7v-69.7h-8.7Zm0 0"
       />
     </g>
-    <g clip-path="url(#d)">
+    <g clipPath="url(#d)">
       <path
         className={`${className}`}
         stroke="none"
