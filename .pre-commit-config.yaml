@@ -1,4 +1,13 @@
 repos:
+  - repo: local
+    hooks:
+      - id: eslint
+        name: eslint
+        entry: yarn lint
+        language: system
+        files: \.(tsx?|jsx?)$
+        pass_filenames: false
+
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
