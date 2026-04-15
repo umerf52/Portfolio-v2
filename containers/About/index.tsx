@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import SectionHeading from "../../components/SectionHeading";
 import Markdown from "../../components/Markdown";
 
@@ -12,9 +13,11 @@ const About = ({ about }: { about: string }) => (
         <Markdown content={about} isNotFullPage />
       </div>
       <div className="flex justify-center items-center mb-8 sm:mt-0 sm:col-end-6 sm:col-span-2 ">
-        <img
+        <Image
           alt="profile image"
           src={profileImg}
+          width={320}
+          height={320}
           className="rounded-full h-80 w-80 border-4 border-primary dark:border-primary-light"
         />
       </div>
