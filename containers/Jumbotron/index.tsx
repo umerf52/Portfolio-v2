@@ -18,9 +18,7 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
       name: "Email",
       href: intro.socials.email,
       svg: (
-        <a href="mailto:raza.khawaja@hotmail.com">
-          <Mail className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
-        </a>
+        <Mail className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
       ),
     },
     {
