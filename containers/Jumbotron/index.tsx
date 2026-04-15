@@ -49,9 +49,9 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
           <div className="pt-8 flex">
             {socials.map((social, _) => (
               <Link href={social.href} key={social.name} target="_blank">
-                <div className="text-gray-400 cursor-pointer mr-4">
+                <span className="text-gray-400 cursor-pointer mr-4">
                   {social.svg}
-                </div>
+                </span>
               </Link>
             ))}
           </div>
