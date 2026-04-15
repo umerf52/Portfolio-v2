@@ -35,10 +35,6 @@ const Resume = ({ resume, introduction }: InferGetStaticPropsType<typeof getStat
         content={introduction.meta_description}
       />
       <link rel="icon" href="/favicon.png" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-        rel="stylesheet"
-      />
     </Head>
     <Container resume={resume} />
   </>
