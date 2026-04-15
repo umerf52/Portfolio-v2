@@ -29,10 +29,6 @@ const About = ({ introduction, about }: InferGetStaticPropsType<typeof getStatic
         <meta property="og:title" content={introduction.name} />
         <meta property="og:description" content={introduction.meta_description} />
         <link rel="icon" href="/favicon.png" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <Container about={about} />
     </>
